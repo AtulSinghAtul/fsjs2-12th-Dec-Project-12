@@ -20,6 +20,7 @@ body {
 
 .nav-img > img:nth-child(2) {
   top: 0;
+  left: 200px;
   position: absolute;
   width: 270px;
 }
