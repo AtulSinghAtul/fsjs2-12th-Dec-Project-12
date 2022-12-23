@@ -363,3 +363,6 @@ label[for="in"] > button:hover {
 .social-media > img:hover {
   cursor: pointer;
 }
+img[src="./assets/Icons/upArrow.png"] {
+  align-self: flex-end;
+}
