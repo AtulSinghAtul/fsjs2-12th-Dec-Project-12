@@ -1,4 +1,4 @@
-# Project-12 (Landing Page)
+# Project-12 (HTML & CSS) Landing Page
 
 ## Name - Atul Singh
 
