@@ -19,9 +19,9 @@ body {
 }
 
 .nav-img > img:nth-child(2) {
+  position: absolute;
   top: 0;
   left: 200px;
-  position: absolute;
   width: 270px;
 }
 ul {
