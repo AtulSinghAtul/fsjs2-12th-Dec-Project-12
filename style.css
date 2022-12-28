@@ -49,6 +49,7 @@ ul > li:hover {
   color: #fff;
   padding: 9px 25px;
   font-size: 15px;
+  border: none;
 }
 .nav-button:hover {
   cursor: pointer;
@@ -111,7 +112,13 @@ strong {
   align-items: center;
   width: 100vw;
   height: 20vh;
-  margin-top: 60px;
+  margin: 120px 0;
+  padding: 0 20px;
+  background-color: rgba(161, 160, 160, 0.129);
+}
+
+.brand-name-section img {
+  width: 10%;
 }
 
 /****** specs-section ******/
@@ -953,5 +960,83 @@ img[src="./assets/Icons/upArrow.png"] {
   }
 }
 
-@media all and (max-width: 1350px) and (min-width: 1024px) {
+@media all and (max-width: 1350px) and (min-width: 1025px) {
+  .nav-img > img:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 230px;
+    z-index: -99;
+  }
+  ul {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    list-style: none;
+    font-size: 18px;
+    margin-left: 20%;
+  }
+  /***** one-ear-section *****/
+  .on-ear-section {
+    gap: 30px;
+
+    margin: 50px 0 0 45%;
+  }
+
+  /***** company brand section *****/
+  .brand-name-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 20vh;
+    margin: 120px 0;
+    padding: 0 20px;
+    background-color: rgba(161, 160, 160, 0.129);
+  }
+
+  .brand-name-section img {
+    width: 10%;
+  }
+
+  /***** company brand section *****/
+  .brand-name-section {
+    width: 100vw;
+    height: 20vh;
+    padding: 0 20px;
+    margin: 120px 0;
+    background-color: rgba(161, 160, 160, 0.129);
+  }
+  .brand-name-section img {
+    width: 10%;
+  }
+  /****** specs-section ******/
+  .specs-section {
+    width: 100vw;
+    text-align: center;
+    padding-left: 60px;
+  }
+
+  .specs-box {
+    gap: 100px;
+  }
+
+  /***** buyNowSection ******/
+  .buyNowSection {
+    padding: 70px 60px;
+
+    margin: 120px 80px 100px 80px;
+  }
+
+  /* ********  footer section  ******** */
+  footer {
+    padding: 190px 30px 100px 30px;
+  }
+  .footer-text-container {
+    gap: 30%;
+    margin-right: 80px;
+  }
 }
