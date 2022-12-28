@@ -96,6 +96,18 @@ strong {
   border-radius: 5px;
   border: 1px solid #6e6e6e;
 }
+.on-ear-button:hover {
+  cursor: pointer;
+  animation: on-ear-button 0.9s ease 1;
+}
+@keyframes on-ear-button {
+  30% {
+    transform: scale(0.8);
+  }
+  80% {
+    transform: scale(1.2);
+  }
+}
 
 .on-ear-button span:nth-child(2) {
   color: #fa3e3e;
@@ -163,6 +175,14 @@ img[src="./assets/Icons/specsLogo.png"] {
 img[src="./assets/Photos/specsImage.png"] {
   width: 450px;
 }
+img[src="./assets/Photos/specsImage.png"]:hover {
+  animation: img 0.6s linear 1;
+}
+@keyframes img {
+  29% {
+    transform: scale(0.8);
+  }
+}
 /***** case-section ******/
 .case-section {
   display: flex;
@@ -200,6 +220,15 @@ img[src="./assets/Photos/specsImage.png"] {
   width: fit-content;
   margin-top: 30px;
   border-radius: 5px;
+}
+.info-button:hover {
+  cursor: pointer;
+  animation: info-button 0.8s ease-out 1;
+}
+@keyframes info-button {
+  40% {
+    transform: scale(0.8);
+  }
 }
 /***** buyNowSection ******/
 .buyNowSection {
@@ -276,6 +305,19 @@ img[src="./assets/Photos/buyNowSectionImage.png"] {
   height: fit-content;
   background-color: #1e1e1e;
   border-radius: 5px;
+}
+.bluetooth-style-box:hover {
+  cursor: pointer;
+  animation: bluetooth-style-box 0.8s linear 1;
+}
+
+@keyframes bluetooth-style-box {
+  85% {
+    transform: scale(1.2);
+  }
+  25% {
+    transform: scale(0.8);
+  }
 }
 .bluetooth-style-box > img {
   margin-top: -50px;
