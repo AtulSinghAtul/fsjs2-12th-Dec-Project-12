@@ -22,7 +22,6 @@ body {
   align-items: center;
   width: 100vw;
   padding-top: 50px;
-  background-color: rgba(205, 253, 249, 0.421);
 }
 
 .nav-img > img:nth-child(2) {
@@ -672,4 +671,287 @@ img[src="./assets/Icons/upArrow.png"] {
     grid-template-columns: repeat(2, 0.5fr);
     grid-template-rows: repeat(3, 0.5fr);
   }
+}
+
+@media all and (max-width: 768px) and (min-width: 641px) {
+  /***** one-ear-section *****/
+
+  .on-ear-section > img {
+    margin-left: 0px;
+    width: 50%;
+  }
+
+  .on-ear-section h2 {
+    font-size: 50px;
+  }
+  strong {
+    font-size: 17px;
+  }
+  .on-ear-section p {
+    width: 75%;
+  }
+
+  /****** specs-section ******/
+
+  img[src="./assets/Icons/specsLogo.png"] {
+    width: 40%;
+  }
+  img[src="./assets/Photos/specsImage.png"] {
+    width: 45%;
+  }
+  /****** case-section ******/
+  .case-section > img {
+    width: 40%;
+  }
+  .case-box > img {
+    width: 40%;
+  }
+  .case-text > p {
+    text-align: center;
+    width: 75%;
+    padding: 8px;
+  }
+
+  /***** buyNowSection ******/
+  .buyNowSection {
+    margin: 100px 50px;
+  }
+  /****** style-section ******/
+
+  .style-section > img {
+    width: 45%;
+  }
+  /****** bluetooth-section ******/
+  .bluetooth-style-section {
+    column-gap: 80px;
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-template-rows: repeat(3, 0.5fr);
+  }
+  img[src="./assets/Photos/buyNowSectionImage.png"] {
+    width: 400px;
+  }
+
+  /****** footer section ******/
+
+  .footer-text-container {
+    gap: 80%;
+  }
+  .input-div {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: flex-start;
+    gap: 35px;
+  }
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px) {
+  .nav-img img[src="./assets/Photos/mainImage.png"] {
+    width: 200px;
+    /* top: 250px;
+    left: 100px; */
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -999;
+    opacity: 0.4;
+  }
+  /****** nav section ******/
+
+  ul {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    list-style: none;
+    font-size: 15px;
+
+    margin-left: 100px;
+  }
+  ul > li:hover {
+    color: red;
+    cursor: pointer;
+  }
+  .nav-button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 9px 25px;
+    font-size: 15px;
+    border: none;
+  }
+  .nav-button:hover {
+    cursor: pointer;
+
+    background: linear-gradient(to top left, #ff0000 40%, #ffffff);
+  }
+
+  /***** one-ear-section *****/
+  .on-ear-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: #fff;
+    width: 100vw;
+    height: fit-content;
+
+    margin: 100px 0;
+    padding: 0 20px;
+  }
+  .on-ear-section > img {
+    margin-left: 0px;
+    width: 55%;
+    margin-bottom: 40px;
+  }
+
+  .on-ear-section h2 {
+    font-size: 48px;
+  }
+  strong {
+    font-size: 18px;
+  }
+  .on-ear-section p {
+    text-align: center;
+    width: 59%;
+    line-height: 30px;
+    font-size: 14px;
+  }
+  .on-ear-button {
+    margin-top: 20px;
+    gap: 15px;
+    padding: 10px 20px;
+  }
+  .on-ear-button span:nth-child(3) {
+    font-size: 17px;
+  }
+
+  /***** company brand section *****/
+  .brand-name-section {
+    width: 100vw;
+    height: 20vh;
+    padding: 0 20px;
+    margin: 120px 0;
+    background-color: rgba(161, 160, 160, 0.129);
+  }
+  .brand-name-section img {
+    width: 10%;
+  }
+  /****** specs-section ******/
+  .specs-section {
+    width: 100vw;
+    text-align: center;
+    padding: 0 20px;
+  }
+  img[src="./assets/Icons/specsLogo.png"] {
+    width: 30%;
+    margin: 80px 0;
+  }
+  .specs-box {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    gap: 100px;
+  }
+  .specs-text {
+    display: grid;
+    grid-template-columns: repeat(2, 0.8fr);
+    grid-template-rows: repeat(2, 0.5fr);
+    justify-content: center;
+    align-items: center;
+    column-gap: 200px;
+    row-gap: 150px;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .box:nth-child(2),
+  .box:nth-child(3) {
+    margin-left: 0px;
+  }
+
+  img[src="./assets/Photos/specsImage.png"] {
+    width: 45%;
+  }
+  /***** buyNowSection ******/
+  .buyNowSection {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    border-radius: 20px;
+    margin: 100px 150px;
+  }
+  .buyNowText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+  .buyNowText h2 {
+    font-size: 30px;
+    width: 80%;
+  }
+
+  .buyNowText > button {
+    padding: 10px 20px;
+  }
+  .buyNowText > button > span {
+    color: #fff;
+  }
+  img[src="./assets/Photos/buyNowSectionImage.png"] {
+    width: 60%;
+  }
+
+  /****** footer section ******/
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: #fff;
+    padding: 190px 20px 100px 20px;
+  }
+  .footer-text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 80%;
+  }
+  .input-div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 80px;
+  }
+  label[for="in"] > input {
+    width: 150px;
+  }
+  label[for="in"] > button {
+    width: 80px;
+    font-size: 10px;
+    padding: 10px 10px;
+    border: none;
+  }
+  label[for="in"] > button > img[alt="arrow-btn"] {
+    width: 12px;
+  }
+}
+
+@media all and (max-width: 1350px) and (min-width: 1024px) {
 }
