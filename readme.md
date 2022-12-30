@@ -12,7 +12,7 @@
 
 This project took 4hrs to complete
 
-- not yet responsive
+-  responsive project
 
 **What I learned in this project**
 
