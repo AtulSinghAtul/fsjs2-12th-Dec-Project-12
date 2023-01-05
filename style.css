@@ -29,6 +29,11 @@ body {
   top: 0;
   left: 200px;
   width: 270px;
+  transition: transform 0.5s ease;
+}
+.nav-img > img:nth-child(2):hover {
+  transform: rotate(360deg);
+  cursor: pointer;
 }
 ul {
   color: #fff;
@@ -117,6 +122,10 @@ strong {
   font-size: 20px;
 }
 /***** company brand section *****/
+.brand-name-section-main {
+  background-color: rgba(161, 160, 160, 0.129);
+  margin: 0 90px;
+}
 .brand-name-section {
   display: flex;
   flex-direction: row;
@@ -126,11 +135,25 @@ strong {
   height: 20vh;
   margin: 120px 0;
   padding: 0 20px;
-  background-color: rgba(161, 160, 160, 0.129);
 }
 
 .brand-name-section img {
   width: 10%;
+}
+.brand-name-section {
+  animation-name: slidein;
+  animation-duration: 6.3s;
+  animation-iteration-count: infinite;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 /****** specs-section ******/
@@ -174,16 +197,18 @@ img[src="./assets/Icons/specsLogo.png"] {
 }
 img[src="./assets/Photos/specsImage.png"] {
   width: 450px;
+  transition: transform 0.7s ease-in-out;
 }
 img[src="./assets/Photos/specsImage.png"]:hover {
-  animation: img 0.6s linear 1;
+  /* animation: img 0.6s linear 1; */
   cursor: pointer;
+  transform: rotate(360deg);
 }
-@keyframes img {
+/* @keyframes img {
   29% {
     transform: scale(0.8);
   }
-}
+} */
 /***** case-section ******/
 .case-section {
   display: flex;
