@@ -124,7 +124,6 @@ strong {
 /***** company brand section *****/
 .brand-name-section-main {
   background-color: rgba(161, 160, 160, 0.129);
-  margin: 0 90px;
 }
 .brand-name-section {
   display: flex;
@@ -135,15 +134,7 @@ strong {
   height: 20vh;
   margin: 120px 0;
   padding: 0 20px;
-}
-
-.brand-name-section img {
-  width: 10%;
-}
-.brand-name-section {
-  animation-name: slidein;
-  animation-duration: 6.3s;
-  animation-iteration-count: infinite;
+  animation: slidein 4.3s ease infinite;
 }
 @keyframes slidein {
   from {
@@ -154,6 +145,10 @@ strong {
     margin-left: 0%;
     width: 100%;
   }
+}
+
+.brand-name-section img {
+  width: 10%;
 }
 
 /****** specs-section ******/
@@ -366,6 +361,10 @@ img[src="./assets/Photos/buyNowSectionImage.png"]:hover {
   margin-top: -50px;
   margin-bottom: 30px;
   width: 100px;
+  transition: transform 1s ease;
+}
+.bluetooth-style-box > img:hover {
+  transform: rotate(360deg);
 }
 .style-box {
   display: flex;
@@ -485,7 +484,14 @@ label[for="in"] > button:hover {
 }
 .social-media > img:hover {
   cursor: pointer;
+  animation: social-media 0.8s ease-out 1;
 }
+@keyframes social-media {
+  50% {
+    transform: scale(1.8);
+  }
+}
+
 img[src="./assets/Icons/upArrow.png"] {
   align-self: flex-end;
 }
@@ -555,7 +561,6 @@ img[src="./assets/Icons/upArrow.png"] {
     height: 20vh;
     padding: 0 20px;
     margin-top: 80px;
-    background-color: rgba(161, 160, 160, 0.129);
   }
   .brand-name-section img {
     width: 15%;
@@ -926,7 +931,6 @@ img[src="./assets/Icons/upArrow.png"] {
     height: 20vh;
     padding: 0 20px;
     margin: 120px 0;
-    background-color: rgba(161, 160, 160, 0.129);
   }
   .brand-name-section img {
     width: 10%;
