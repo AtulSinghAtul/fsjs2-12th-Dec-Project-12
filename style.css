@@ -204,11 +204,7 @@ img[src="./assets/Photos/specsImage.png"]:hover {
   cursor: pointer;
   transform: rotate(360deg);
 }
-/* @keyframes img {
-  29% {
-    transform: scale(0.8);
-  }
-} */
+
 /***** case-section ******/
 .case-section {
   display: flex;
@@ -220,6 +216,7 @@ img[src="./assets/Photos/specsImage.png"]:hover {
   margin: 250px 0 0 0;
   width: 100vw;
 }
+
 .case-box {
   display: flex;
   flex-direction: row-reverse;
@@ -227,6 +224,7 @@ img[src="./assets/Photos/specsImage.png"]:hover {
   align-items: center;
   gap: 160px;
 }
+
 .case-text > p {
   width: 200px;
   line-height: 35px;
@@ -240,7 +238,7 @@ img[src="./assets/Photos/specsImage.png"]:hover {
   justify-content: flex-start;
   align-items: center;
   gap: 15px;
-  /* background-color: #1e1e1e; */
+
   background-color: #ff0000;
   padding: 12px 20px;
   width: fit-content;
@@ -261,6 +259,11 @@ img[src="./assets/Photos/caseImage.png"]:hover {
   animation: img 0.6s ease 1;
   cursor: pointer;
 }
+/* @keyframes img {
+  40% {
+    transform: scale(0.8);
+  }
+} */
 /***** buyNowSection ******/
 .buyNowSection {
   color: #fff;
@@ -308,8 +311,13 @@ img[src="./assets/Photos/buyNowSectionImage.png"] {
   width: 450px;
 }
 img[src="./assets/Photos/buyNowSectionImage.png"]:hover {
-  animation: img 0.6s ease 1;
+  animation: img 1.6s ease 1;
   cursor: pointer;
+}
+@keyframes img {
+  40% {
+    transform: scale(1.8);
+  }
 }
 /****** style-section ******/
 .style-section {
