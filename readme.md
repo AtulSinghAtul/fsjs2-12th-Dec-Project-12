@@ -12,7 +12,7 @@
 
 This project took 4hrs to complete
 
-- not yet responsive
+-  responsive project
 
 **What I learned in this project**
 
@@ -22,4 +22,5 @@ This project took 4hrs to complete
 
 ![Project-12](https://img.shields.io/badge/HTML%20%26%20CSS-Project--12-lightgrey)
 
-![Project 12](./Main%20Landing%20page.png)
+
+![beats-image](https://user-images.githubusercontent.com/112545072/210030078-ea1c436b-c58c-4ccd-a387-d4521c3f3200.png)
